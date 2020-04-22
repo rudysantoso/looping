@@ -1,11 +1,13 @@
-console.log('perulangan petama')
-var loop = 2 ;
-while(loop < 20){
-  console.log(loop + ' I love coding');
-loop++
+let first = 'LOOPING PERTAMA'
+console.log(first)
+
+for(let I=1;I<=20;I++){
+    console.log(I + ' ' + '-' + ' ' + 'I love coding')
 }
-console.log('perulangan kedua')
-while(loop >= 2){
-  console.log(loop + ' I will become fullstack javascript developer');
-loop--
+
+let second = 'LOOPING KEDUA'
+console.log(second)
+
+for(let II=20;II>=1;II--){
+console.log(II + ' ' + '-' + ' ' + 'I will become fullstack developer')
 }
